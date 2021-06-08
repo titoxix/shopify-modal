@@ -1,8 +1,10 @@
 import { Heading, Page } from "@shopify/polaris";
+import Install from "./install";
 
 const Index = () => (
   <Page>
-    <Heading>Shopify app with Node and Rect 🎉</Heading>
+    <Heading>Modal</Heading>
+    <Install />
   </Page>
 );
 
